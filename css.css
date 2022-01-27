@@ -1,0 +1,12 @@
+body {
+	background: #282828;
+	font-family: sans-serif;
+}
+h1, a {
+	color: #ddd;
+}
+.resource {
+	color: #ddd;
+	background: #444;
+	padding: 10px;
+}
