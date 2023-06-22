@@ -4,6 +4,7 @@ body {
 }
 h1, a {
 	color: #ddd;
+	text-decoration: none; /* Remove underline */
 }
 .resource {
 	color: #ddd;
