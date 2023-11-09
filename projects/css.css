@@ -10,7 +10,7 @@ h1, a {
 	color: #ddd;
 	background: #444;
 	padding: 0.7rem;
-	margin: 0.7rem 0;
+	margin-top: 1rem;
 	display: flex;
 	cursor: pointer;
 }
@@ -19,4 +19,10 @@ h1, a {
 	width: 1em;
 	height: 1em;
 	margin-left: auto;
+}
+.dropdown {
+	color: #ddd;
+	background: #666;
+	padding: 0.7rem;
+	display: flex;
 }
