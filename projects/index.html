@@ -8,26 +8,42 @@
 	</head>
 	<body>
 		<header>
-			<h1>Projects:</h1>
+			<div class="backButtonDiv">
+				<a href="..">
+				<svg class="backButton" viewBox="0 0 18 18" focusable="false" aria-hidden="true">
+					<path d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" fill="#ddd"/> 
+				</svg>
+				</a>
+			</div>
+			<p class="mainTitle">Projects:</p>
 		</header>
 		<main>
-		<a href="../resources/donut.png" target="_blank">
-			<div class="resource" tabindex="0" role="button">
-				<span>View donut.png</span>
+		<div id="resourceContainer">
+			<a href="../resources/donut.png" target="_blank">
+				<div class="resource" tabindex="0" role="button">
+					<span>View donut.png</span>
+				</div>
+			</a>
+			<a href="../resources/sla_s_v2.py" download="sla_s_v2.py">
+				<div class="resource" tabindex="0" role="button">
+					<span>Download sla_s_v2.py</span>
+				</div>
+			</a>
+			<div class="dropdownResource" tabindex="0" role="button">
+				<span>Test</span>
+				<svg class="dropdownButton" id="dropdownSymbol1" viewBox="0 0 18 18" focusable="false" aria-hidden="true">
+					<path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#ddd"/>
+				</svg>
 			</div>
-		</a>
-		<a href="../resources/sla_s_v2.py" download="sla_s_v2.py">
-			<div class="resource" tabindex="0" role="button">
-				<span>Download sla_s_v2.py</span>
+			<div id="dropdown1"></div>
+			<div class="dropdownResource" tabindex="0" role="button">
+				<span>Test</span>
+				<svg class="dropdownButton" id="dropdownSymbol2" viewBox="0 0 18 18" focusable="false" aria-hidden="true">
+					<path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#ddd"/>
+				</svg>
 			</div>
-		</a>
-		<div class="resource" tabindex="0" role="button" id="dropdownButton">
-			<span>Test</span>
-			<svg class="dropdownButton" focusable="false" aria-hidden="true" viewBox="0 0 18 18" id="dropdownSymbol">
-				<path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#ddd"></path>
-			</svg>
+			<div id="dropdown2"></div>
 		</div>
-		<div id="dropdownTest"></div>
 		</main>
 		<footer>
 		</footer>
