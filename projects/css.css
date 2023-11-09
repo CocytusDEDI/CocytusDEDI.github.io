@@ -11,10 +11,11 @@ h1, a {
 	background: #444;
 	padding: 0.7rem;
 	margin: 0.7rem 0;
+	display: flex;
 }
 .dropdownButton {
 	user-select: none;
 	width: 1em;
 	height: 1em;
-	top: 50%;
+	margin-left: auto;
 }
