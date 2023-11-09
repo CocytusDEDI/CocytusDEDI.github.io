@@ -2,11 +2,18 @@ body {
 	background: #282828;
 	font-family: noto-sans;
 }
-h1, a {
+a {
 	color: #ddd;
 	text-decoration: none; /* Remove underline */
 }
-.resource {
+.mainTitle {
+	color: #ddd;
+	font-size: 2rem;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+.resource, .dropdownResource {
 	color: #ddd;
 	background: #444;
 	padding: 0.7rem;
@@ -19,6 +26,15 @@ h1, a {
 	width: 1em;
 	height: 1em;
 	margin-left: auto;
+}
+.backButton {
+	user-select: none;
+	width: 2rem;
+	height: 2rem;
+}
+.backButtonDiv {
+	margin-top: 0.7rem;
+	margin-left: 0.3rem;
 }
 .dropdown {
 	color: #ddd;
