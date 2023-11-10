@@ -40,5 +40,8 @@ a {
 	color: #ddd;
 	background: #666;
 	padding: 0.7rem;
-	display: flex;
+}
+.downloadLink {
+	text-decoration: underline;
+	color: #6c04bb;
 }
