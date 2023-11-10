@@ -7,8 +7,8 @@ resources.forEach((resource, index) => {
 });
 
 const dropdownHtml = {
-    dropdown1: "<a href=\"../resources/donut.png\" target=\"_blank\"><span>View donut.png</span></a>",
-    dropdown2: "<a href=\"../resources/sla_s_v2.py\" download=\"sla_s_v2.py\"><span>Download sla_s_v2.py</span></a>"
+    dropdown1: "<a href=\"../resources/donut.png\" target=\"_blank\"><span class=\"downloadLink\">View donut.png</span></a><br><br><span>This donut was my first project in blender which I had picked up to have a try at 3D modelling</span>",
+    dropdown2: "<a href=\"../resources/sla_s_v2.py\" download=\"sla_s_v2.py\"><span class=\"downloadLink\">Download sla_s_v2.py</span></a><br><a href=\"../resources/backdoor master.py\" download=\"backdoor master.py\"><span class=\"downloadLink\">Download python backdoor master.py</span></a><br><br><span>These files are a pair, used to send and receive command line commands. They were made early in my programming career and thus are very basic.</span>"
 };
 
 function dropdown(dropdownID, dropdownSymbolID) {
