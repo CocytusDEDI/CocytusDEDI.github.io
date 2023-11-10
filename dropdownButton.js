@@ -8,7 +8,12 @@ resources.forEach((resource, index) => {
 
 function dropdown(dropdownID, dropdownSymbolID) {
     if (document.getElementById(dropdownID).outerHTML == "<div id=\"" + dropdownID + "\"></div>") {
-        document.getElementById(dropdownID).outerHTML = "<div class=\"dropdown\" id=\"" + dropdownID + "\"><span>This is a test<br><br>This is a another test</span></div>"
+        fetch('dropdownHtml.json')
+            .then(response => response.json())
+            .then(dropdownHtml => {
+                // Handle the JSON data
+                document.getElementById(dropdownID).outerHTML = "<div class=\"dropdown\" id=\"" + dropdownID + "\">" + dropdownHtml[dropdownID] + "</div>";
+            }).catch(error => console.error('Error fetching JSON:', error));
         document.getElementById(dropdownSymbolID).innerHTML = "<path d=\"m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z\" fill=\"#ddd\"></path>"
     }
     else {
