@@ -21,6 +21,14 @@ a {
 	display: flex;
 	cursor: pointer;
 }
+.blog {
+	background: #555;
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
+.blogText{
+	color: #ddd;
+}
 .dropdownButton {
 	user-select: none;
 	width: 1em;
@@ -41,7 +49,7 @@ a {
 	background: #555;
 	padding: 0.7rem;
 }
-.downloadLink {
+.link {
 	text-decoration: underline;
 	color: #6c04bb;
 }
