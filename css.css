@@ -1,39 +1,45 @@
 body {
-	background: #282828;
+	background: #222;
 	font-family: noto-sans;
 }
 a {
-	color: #ddd;
+	color: #fff
 	text-decoration: none; /* Remove underline */
 }
 .mainTitle {
-	color: #ddd;
+	color: #fff;
 	font-size: 2rem;
 	margin-top: 0rem;
 	margin-bottom: 1rem;
 	font-weight: bold;
 }
 .resource, .dropdownResource {
-	color: #ddd;
-	background: #444;
+	color: #fff;
+	background: #2D2D2D;
 	padding: 0.7rem;
 	margin-top: 1rem;
 	display: flex;
 	cursor: pointer;
 }
 .blog {
-	background: #555;
+	background: #333;
 	margin: 0.5rem;
 	padding: 0.5rem;
 }
 .blogText{
-	color: #ddd;
+	color: #fff;
 }
 .dropdownButton {
 	user-select: none;
 	width: 1em;
 	height: 1em;
 	margin-left: auto;
+}
+.icon {
+	user-select: none;
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: 0.3em;
 }
 .backButton {
 	user-select: none;
@@ -45,8 +51,8 @@ a {
 	margin-left: 0.3rem;
 }
 .dropdown {
-	color: #ddd;
-	background: #555;
+	color: #fff;
+	background: #333;
 	padding: 0.7rem;
 }
 .link {
