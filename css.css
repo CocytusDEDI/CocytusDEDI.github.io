@@ -3,7 +3,7 @@ body {
 	font-family: noto-sans;
 }
 a {
-	color: #fff
+	color: #fff;
 	text-decoration: none; /* Remove underline */
 }
 .mainTitle {
