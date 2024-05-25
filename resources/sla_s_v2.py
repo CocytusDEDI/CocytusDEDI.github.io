@@ -2,7 +2,7 @@ import os
 import socket
 import time
 
-while 1:
+while True:
     connected = False
     run = True
     s = socket.socket()
